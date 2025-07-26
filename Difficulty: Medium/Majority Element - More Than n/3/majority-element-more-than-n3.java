@@ -15,7 +15,8 @@ class Solution {
             }
         }
         
-          Collections.sort(l);
+           Collections.sort(l);
+        //Arrays.sort(l);
         
         return l;
     }
