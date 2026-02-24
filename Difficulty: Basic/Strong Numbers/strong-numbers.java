@@ -1,12 +1,12 @@
 // User function Template for Java
 
 class Solution {
-    public int is_StrongNumber(int n) {
-        int num=n,sum=0;
-        // Code here
-        while(n!=0){
-            sum+=fact(n%10);
-            n/=10;
+    static int isStrong(int N) {
+        // code here
+        int num=N,sum=0;
+        while(N!=0){
+            sum+=fact(N%10);
+            N/=10;
         }
         return (sum==num)?1:0;
     }
@@ -18,4 +18,4 @@ class Solution {
         }
         return fact;
     }
-}
+};
